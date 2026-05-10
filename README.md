@@ -1,4 +1,4 @@
-# RecipeNest 🍳
+# RecipeNest 
 ### Full-Stack Recipe Sharing Platform
 
 RecipeNest is a modern full-stack recipe sharing platform where users can discover, create, and organize recipes through an intuitive and scalable interface.
