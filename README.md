@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RecipeNest 🍳
+### Full-Stack Recipe Sharing Platform
 
-## Getting Started
+RecipeNest is a modern full-stack recipe sharing platform where users can discover, create, and organize recipes through an intuitive and scalable interface.
 
-First, run the development server:
+The platform enhances the cooking experience with AI-powered nutritional insights and a hands-free cooking assistant using the Browser Speech API.
+
+---
+
+#  Features
+
+-  Discover recipes across multiple categories
+-  Create and share custom recipes
+-  Categorize recipes for better organization
+-  Real-time nutritional insights for each recipe
+-  Hands-free cooking assistant using Browser Speech API
+-  Secure user authentication with Clerk
+-  Fully responsive modern UI
+-  Fast and scalable architecture
+
+---
+
+#  Key Functionalities
+
+##  Nutritional Insights
+Integrated the Spoonacular API to provide:
+- Calories
+- Protein
+- Carbohydrates
+- Fats
+- Ingredient-based nutritional analysis
+
+This helps users make healthier and informed cooking decisions.
+
+---
+
+##  Hands-Free Cooking Mode
+
+Implemented Browser Speech API functionality that:
+- Reads step-by-step recipe instructions aloud
+- Enables hands-free cooking
+- Improves accessibility and user experience
+
+---
+
+
+
+
+
+#  Setup Instructions
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/manan-soni15/recipe-nest.git
+```
+
+## 2️⃣ Navigate to Project Folder
+
+```bash
+cd recipenest
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+## 4️⃣ Create Environment Variables
+
+Create a `.env.local` file in the root directory and add:
+
+```env
+MONGODB_URI=your_mongodb_connection
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
+CLERK_SECRET_KEY=your_secret_key
+SPOONACULAR_API_KEY=your_spoonacular_api_key
+```
+
+---
+
+## 5️⃣ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 6️⃣ Open in Browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#  Future Enhancements
 
-## Deploy on Vercel
+- AI Recipe Recommendations
+- Meal Planner
+- Grocery List Generator
+- Save Favorite Recipes
+- Recipe Rating & Reviews
+- Video Recipe Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# 📸 Highlights
+
+✅ Full-stack scalable architecture  
+✅ Responsive UI with Tailwind CSS  
+✅ Real-time nutrition analysis  
+✅ Speech-enabled cooking assistant  
+✅ Secure authentication system  
+
+---
+
+
+
